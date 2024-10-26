@@ -1,28 +1,32 @@
-# Task Tracker
+# 🚀 Task Tracker
 
 Project to solve [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
 The program consists in a CLI task-tracker that allows you to track your todos.
 
-All todos created will be stored in a simple json file 'tasks.json' built automatically in the same directory of the execution.
+All todos created will be stored in a simple json file <i><b>tasks.json</b></i> built automatically in the same directory of the execution.
 
 ## Prerequisites
 
 - Node.js installed on your system.
 
 ## How to download
+
 ```bash
     git clone https://github.com/alebianchi96/cli-task-tracker.git
-    cd cd cli-task-tracker
+    cd cli-task-tracker
 ```
 
 ## How to use
+
 ```bash
     sh task-cli.sh <command> <params...>
 ```
 
 ## Available commands
+
 - info -> to get info about all available commands
+
 ```bash
     ----------------------------------------
     🚀 TASK MANAGEMENT APP
@@ -39,8 +43,16 @@ All todos created will be stored in a simple json file 'tasks.json' built automa
 ```
 
 ## Available status
+
 Defined in status_service.js, available status are:
+
 - todo
 - progress
 - done
 Each one has its own icon.
+
+## Images
+
+![Task Tracker CLI 1](images/task_tracker_img_1.png)
+![Task Tracker CLI 2](images/task_tracker_img_2.png)
+![Task Tracker CLI 3](images/task_tracker_img_3.png)
