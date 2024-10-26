@@ -1,4 +1,4 @@
-# 🚀 Task Tracker
+# 🚀 TASK MANAGEMENT APP
 
 Project to solve [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
@@ -51,8 +51,23 @@ Defined in status_service.js, available status are:
 - done
 Each one has its own icon.
 
-## Images
+## Examples
 
+```bash
+sh task-cli.sh list
+```
 ![Task Tracker CLI 1](images/task_tracker_img_1.png)
+<br><br>
+```bash
+sh task-cli.sh list todo
+sh task-cli.sh list progress
+sh task-cli.sh list done
+```
 ![Task Tracker CLI 2](images/task_tracker_img_2.png)
+<br><br>
+```bash
+sh task-cli.sh add "test_da_fare_4" 28/09/2024
+sh task-cli.sh set 2 progress
+sh task-cli.sh set 1 done
+```
 ![Task Tracker CLI 3](images/task_tracker_img_3.png)
